@@ -1,6 +1,7 @@
 import gradio as gr
 import insightface
 from insightface.app import FaceAnalysis
+import numpy as np
 
 wellcomingMessage = """
     <h1>Face Swapping</h1>
@@ -8,6 +9,7 @@ wellcomingMessage = """
     <p>Happy <span style="font-size:500%;color:red;">&hearts;</span> coding!</p>
 """
 
+np.seterr(all="ignore")
 assert insightface.__version__>='0.7'
 
 app = FaceAnalysis(name='buffalo_l')
