@@ -10,7 +10,7 @@ wellcomingMessage = """
 
 assert insightface.__version__>='0.7'
 
-done = 0
+value = 0
 app = FaceAnalysis(name='buffalo_l')
 app.prepare(ctx_id=0, det_size=(640, 640))
 swapper = insightface.model_zoo.get_model('inswapper_128.onnx', download=True, download_zip=True)
@@ -31,8 +31,8 @@ def swap_faces(faceSource, sourceFaceId, faceDestination, destFaceId):
 
     result = swapper.get(faceDestination, res_face, source_face, paste_back=True)
 
-    done = done + 1
-    print(f"processed: {done}...")
+    value = value + 1
+    print(f"processed: {value}...")
 
     # for face in faces:
     #     res = swapper.get(res, face, source_face, paste_back=True)
