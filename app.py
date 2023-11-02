@@ -31,6 +31,7 @@ def swap_faces(faceSource, sourceFaceId, faceDestination, destFaceId):
 
     result = swapper.get(faceDestination, res_face, source_face, paste_back=True)
 
+    global value
     value = value + 1
     print(f"processed: {value}...")
 
