@@ -6,6 +6,11 @@ wellcomingMessage = """
     <h1>Face Swapping</h1>
     <p>If you like this app, plase take a look at my <a href="https://www.meetup.com/tech-web3-enthusiasts-united-insightful-conversations/" target="_blank">Meetup Group</a>! There will be more interesting apps and events soon.</p>
     <p>Happy <span style="font-size:500%;color:red;">&hearts;</span> coding!</p>
+    <p style="color: grey;">🚀 Love my Face-Swapping Fun? Support Me with Crypto</p>
+    <ul style="color: grey; font-family: 'Times New Roman', Times, serif;">
+        <li>BTC: 1MhR1TDqnEhgsHkWcrJtSj7vaNygupxn6G</li>
+        <li>ETH: 0x0459620D616C6D827603d43539519FA320B831c2</li>
+    </ul>
 """
 
 assert insightface.__version__>='0.7'
