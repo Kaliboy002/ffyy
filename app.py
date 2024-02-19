@@ -9,7 +9,7 @@ wellcomingMessage = """
     <div style="color: grey; font-size:small;">
         <p>🚀 Love my Face-Swapping Fun? Support Me with Crypto</p>
         <ul">
-            <li>BTC: 1MhR1TDqnEhgsHkWcrJtSj7vaNygupxn6G</li>
+            <li>BTC: bc1q2m92e4hrtpk3keh2dsq8whljz7mfquv46xetwj</li>
             <li>ETH: 0x0459620D616C6D827603d43539519FA320B831c2</li>
         </ul>
     </div>
