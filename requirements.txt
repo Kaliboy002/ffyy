@@ -1,3 +1,6 @@
 gradio
 insightface
 onnxruntime
+numpy
+pillow
+requests
